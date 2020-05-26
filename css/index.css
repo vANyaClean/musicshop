@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+:root{
+   font-family: 'Baloo 2', cursive;
+   --common-color:white;
+}
+.topheader{
+    background-color:cyan;
+}
+header nav .logo{
+    font-family: 'Pacifico', cursive;
+    margin:0;
+}
+header nav p{
+    margin:0;
+}
+header nav .topmenue .contactlogo .linklogo{
+   width: 30px;
+}
+.topmenue{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    list-style-type: none;
+}
+header nav .topmenue .menueitem{
+    border-color:transparent;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    text-decoration:none;
+    text-transform: uppercase;
+
+}
+header nav .topmenue .menueitem:hover{
+    border-color:black
+}
+header nav .logo,p{
+    text-align: center;
+}
+@media(min-width:700px){
+    header nav{
+    display:flex;
+    }
+    }
+
+@media(min-width:700px){
+header nav .logo,p{
+    flex-direction: column;
+
+}
+
+
+}
+
+
