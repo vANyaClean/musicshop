@@ -10,8 +10,9 @@
 header nav .logo{
     font-family: 'Pacifico', cursive;
     margin:0;
+    align-self: center;
 }
-header nav p{
+header nav{
     margin:0;
 }
 header nav .topmenue .contactlogo .linklogo{
@@ -19,7 +20,7 @@ header nav .topmenue .contactlogo .linklogo{
 }
 .topmenue{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row-reverse;
     list-style-type: none;
 }
@@ -35,7 +36,7 @@ header nav .topmenue .menueitem{
 header nav .topmenue .menueitem:hover{
     border-color:black
 }
-header nav .logo,p{
+header nav .logo{
     text-align: center;
 }
 @media(min-width:700px){
@@ -44,9 +45,9 @@ header nav .logo,p{
     }
     }
 
-@media(min-width:700px){
-header nav .logo,p{
-    flex-direction: column;
+@media(max-width:700px){
+header nav .topmenue{
+    justify-content: space-between;
 
 }
 
