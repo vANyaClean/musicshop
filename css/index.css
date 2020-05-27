@@ -17,6 +17,8 @@ header nav{
 }
 header nav .topmenue .contactlogo .linklogo{
    width: 30px;
+   margin: 10px;
+
 }
 .topmenue{
     display: flex;
@@ -37,7 +39,6 @@ header nav .topmenue .menueitem{
 header nav .topmenue .menueitem:hover{
     border-color:white;
     background-color:crimson;
-
 }
 header nav .logo{
     text-align: center;
