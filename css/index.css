@@ -5,7 +5,7 @@
    --common-color:white;
 }
 .topheader{
-    background-color:cyan;
+    background-color:crimson;
 }
 header nav .logo{
     font-family: 'Pacifico', cursive;
@@ -25,16 +25,19 @@ header nav .topmenue .contactlogo .linklogo{
     list-style-type: none;
 }
 header nav .topmenue .menueitem{
-    border-color:transparent;
+    border: color black 0;
+    background-color: white;
     border-width: 1px;
     border-style: solid;
-    padding: 10px;
+    padding: 5px;
     text-decoration:none;
     text-transform: uppercase;
 
 }
 header nav .topmenue .menueitem:hover{
-    border-color:black
+    border-color:white;
+    background-color:crimson;
+
 }
 header nav .logo{
     text-align: center;
@@ -45,13 +48,5 @@ header nav .logo{
     }
     }
 
-@media(max-width:700px){
-header nav .topmenue{
-    justify-content: space-between;
-
-}
-
-
-}
 
 
