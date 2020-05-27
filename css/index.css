@@ -48,6 +48,13 @@ header nav .logo{
     display:flex;
     }
     }
-
+    body article .elecguitar{
+        position: absolute;
+        width:1280px;
+    }
+body article .bassguitar{
+    width:1280px;
+    position: absolute;
+}
 
 
