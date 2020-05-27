@@ -3,7 +3,6 @@
 :root{
    font-family: 'Baloo 2', cursive;
    --common-color:white;
-   max-width: 1280px;
 }
 .topheader{
     background-color:crimson;
@@ -48,13 +47,15 @@ header nav .logo{
     display:flex;
     }
     }
-    body article .elecguitar{
-        position: absolute;
-        width:1280px;
+    body article .elecguitar{ 
+   width:1280px;
     }
 body article .bassguitar{
     width:1280px;
-    position: absolute;
 }
+body article .domra{
+    width:1280px;
+}
+
 
 
