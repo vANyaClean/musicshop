@@ -14,17 +14,16 @@ header nav .logo{
 }
 header nav{
     margin:0;
+    justify-content: space-between;
 }
 header nav .topmenue .contactlogo .linklogo{
    width: 30px;
-   margin: 10px;
-
 }
 .topmenue{
     display: flex;
-    justify-content: space-between;
     flex-direction: row-reverse;
     list-style-type: none;
+    text-decoration: none;
 }
 header nav .topmenue .menueitem{
     border: color black 0;
@@ -34,11 +33,12 @@ header nav .topmenue .menueitem{
     padding: 5px;
     text-decoration:none;
     text-transform: uppercase;
+    margin-right: 30px;
 
 }
 header nav .topmenue .menueitem:hover{
     border-color:white;
-    background-color:crimson;
+    background-color:blueviolet;
 }
 header nav .logo{
     text-align: center;
