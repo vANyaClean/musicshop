@@ -3,9 +3,18 @@
 :root{
    font-family: 'Baloo 2', cursive;
    --common-color:white;
+   max-width: 1280;
 }
 .topheader{
     background-color:crimson;
+}
+body .about-us{
+    display:flex;
+    
+}
+body .about-us .about-us-guitar{
+    width:600px;
+    height:;
 }
 header nav .logo{
     font-family: 'Pacifico', cursive;
@@ -56,6 +65,8 @@ body article .bassguitar{
 body article .domra{
     width:1280px;
 }
-
+.carousel-slide .d-blockw-100{
+    width : 500px;
+}
 
 
